@@ -1,0 +1,31 @@
+
+
+$color-blue-dark: rgb(0, 23, 60);
+$color-blue-light: rgb(28, 99, 184);
+
+$color-grey-dark: #212121;
+$color-black: #111;
+
+@mixin container($screen-size) {
+    @if $screen-size == 'sm' {
+
+    }
+
+    @if $screen-size == 'md' {
+        
+    }
+
+    @if $screen-size == 'lg' {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 50px 0px;
+        width: 100%;
+    }
+
+    @if $screen-size == 'xl' {
+        margin: 0 auto;
+        max-width: 1600px;
+        padding: 100px 0px;
+        
+    }
+}
